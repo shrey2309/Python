@@ -1,3 +1,5 @@
+# Basic questions for understanding for loop and nested for loop
+
 #1. PROGRAM TO PRINT TABLE OF A NUMBER: 
 n = int(input("Enter a number : "))
 for i in range(n,n*10+1,n):
