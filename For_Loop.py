@@ -54,5 +54,16 @@ for k in range(2,13):
                 count=count+1 
     print("Probability of getting sum as",k,"is",round((count*100/36),2),"%")
 
+#7. PROGRAM FOR PROBABILITY OF ALL THE SUMS WHEN ROLLING THREE DICES USING FOR LOOP
+for k in range(3,19):
+    count = 0
+    for first_dice in range(1,7):
+        for second_dice in range(1,7):
+            for third_dice in range(1,7):
+                if(first_dice + second_dice + third_dice == k):
+                    count+=1 
+    print("Probability of getting sum as",k,"is",round((count*100/216),2),"%")
+
+
         
           
